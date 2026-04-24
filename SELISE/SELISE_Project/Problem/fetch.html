@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Info</title>
+  <link rel="stylesheet" type="text/css" href="fetchStyle.css"> </link>
+</head>
+<body>
+  <div class="container">
+    <h2>Country Info</h2>
+    <!-- Optional dropdown -->
+    <select id="countrySelect">
+      <option value="bhutan">Bhutan</option>
+      <option value="nepal">Nepal</option>
+      <option value="india">India</option>
+      <option value="pakistan">Pakistan</option>
+    </select>
+
+    <h3 id="status">Loading…</h3>
+    <p id="name"></p>
+    <p id="capital"></p>
+    <p id="population"></p>
+    <p id="region"></p>
+    <img id="flag" alt="Country flag" />
+  </div>
+
+  <script src="fetchScript.js"></script>
+</body>
+</html>

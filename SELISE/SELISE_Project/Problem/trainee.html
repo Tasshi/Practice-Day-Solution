@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trainee Attendance</title>
+  <link rel="stylesheet" href="traineeStyle.css">
+</head>
+<body>
+  <div class="container">
+    <h2 id="time"></h2>
+    <h2 id="count">0 trainees present</h2>
+
+    <!-- Form for adding trainees -->
+    <form id="traineeForm">
+      <input type="text" id="nameInput" placeholder="Enter trainee name" required>
+      <button type="submit" id="addBtn">Add</button>
+      <button type="button" id="clearBtn">Clear all</button>
+    </form>
+
+    <!-- Attendance table -->
+    <table id="traineeTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="traineescript.js"></script>
+</body>
+</html>

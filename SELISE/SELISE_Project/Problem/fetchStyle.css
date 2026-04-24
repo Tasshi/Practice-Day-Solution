@@ -1,0 +1,31 @@
+body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+    .container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 420px;
+      text-align: center;
+    }
+    #flag {
+      width: 200px;
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    select {
+      margin-bottom: 20px;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .error {
+      color: red;
+      font-weight: bold;
+    }

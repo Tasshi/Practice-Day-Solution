@@ -10,10 +10,11 @@ const trainees = [
   { name: "Kinley", vertical: "QA", score: 72 },
   { name: "Choden", vertical: "BA", score: 84 }
 ];
+
 const sorted = [...trainees].sort((a, b) => b.score - a.score);
-const top = sorted.slice(0, 2);
+const top = sorted.slice(0, 3);
 
 top.forEach((tanee, index) => {
-  const medal = ["🥇", "🥈"][index];
+  const medal = ["🥇", "🥈", "🥉"][index];
   console.log(`${medal} ${tanee.name} (${tanee.vertical}) — ${tanee .score}`);
 });

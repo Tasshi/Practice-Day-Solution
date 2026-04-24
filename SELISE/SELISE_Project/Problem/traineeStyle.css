@@ -1,0 +1,97 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 500px;
+  text-align: center;
+}
+
+#time, #count {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#addBtn {
+  background: #4CAF50;
+  color: white;
+}
+
+#addBtn:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+#clearBtn {
+  background: #e67e22;
+  color: white;
+}
+
+#clearBtn:hover {
+  background: #d35400;
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.removeBtn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  background: #c0392b;
+}
